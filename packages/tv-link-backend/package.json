@@ -1,0 +1,12 @@
+{
+  "name": "tv-link-backend",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "tv-link-shared": "*"
+  },
+  "scripts": {
+    "build": "tsc index.ts --outDir dist"
+  }
+}
